@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Ahlawat PortFolio</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Open+Sans:wght@400;600;700&family=Poppins:wght@200;400;700&family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo">MA</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">MA</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <div id="side-bar">
+        <img onclick="location.href='https://codepen.io/your-work/'" src="./assets/codepen.png" alt="CodePen">
+        <img onclick="location.href='https://github.com/AhlawatMohit'" src="./assets/github.png" alt="GitHub">
+        <img onclick="location.href='https://www.linkedin.com/in/mohit-ahlawat-675305237/'" src="./assets/linkedin.png"
+            alt="LinkedIn">
+    </div>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/main.png" alt="Mohit Ahlawat profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Mohit Ahlawat</h1>
+            <span id="element"></span>
+            <div class="btn-container">
+                <button class="btn btn-color-2 profile-btn" onclick="window.open('./assets/FrontEnd.pdf')">Download
+                    CV</button>
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color-1 profile-btn" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img class="about-pic" src="./assets/about-main.png" alt="Profile Picture">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets/experience.png" alt="Experience Icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Freelancer <br /> Frontend Developer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="assets/education.png" alt="Education Icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.Tech(CSE) <br /> Computer Science and Engineering</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="assets/frontend.png" alt="Frontend Developer Icon" class="icon">
+                        <h3>Frontend Development</h3>
+                        <p>Frontend Bootcamp <em>(Udemy)</em> <br /> Dr. Angela Yu</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Hi, I'm Mohit Ahlawat. I Completed my Graduation from Matu Ram
+                        Institute of Engineering & Management(MRIEM). From B.tech (C.S.E), Year (2020).
+                        MRIEM affilated by Maharshi Dayanand University(MDU) Rohtak. And now I am working Freelancer as
+                        Frontend Developer and learning React Native. If you want to see all my projects and work visit
+                        on my Codepen or Github account.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='#experience'">
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML5</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>CSS3</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>BootStrap</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>MaterialUI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>React Js</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>TailWind CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Sass</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='#projects'">
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <!-- <p class="section__text__p1">Projects Worked in Frontend Development. With ScreenShots, github link for code and you can see project on
+            Codepen click on live Demo.</p> -->
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/NetflixClone.png" alt="Netflix Clone" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Netflix Clone</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/AhlawatMohit/Netflix_Clone'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://codepen.io/MAhlawat/pen/WNLyKzL'">Live
+                            Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/reactWeather.png" alt="Weather App" class="project-img weather">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Weather App</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/AhlawatMohit/weatherApp'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://codepen.io/MAhlawat/pen/GRPMXPd'">Live
+                            Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/Music.png" alt="Music Player" class="project-img music">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Music Player</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/AhlawatMohit/Music_player'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://codepen.io/MAhlawat/pen/gOZmozO'">Live
+                            Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='#contact'">
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon email-icon">
+                <p> <a href="mailto:mohitahlawat223@gmail.com">@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon">
+                <p> <a href="https://www.linkedin.com/in/mohit-ahlawat-675305237/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © 2023 Mohit Ahlawat</p>
+    </footer>
+
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+
+</html>
