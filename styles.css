@@ -26,13 +26,6 @@ a .btn {
 
 /* NAVBAR */
 
-/* #desktop-nav {
-  position: fixed;
-  z-index: 10;
-  left: 0;
-  top: 0;
-  width: 100%;
-} */
 
 .logo {
   font-size: 3.2rem;
@@ -591,14 +584,14 @@ margin-top: 7rem;
   }
 
   .section__pic-container .about-pic {
-    margin-top: 5rem;
+    margin-top: 3rem;
     width: 18rem;
     height: 18rem;
     border-radius: 10%;
   }
 
   #projects {
-    margin-top: -9rem;
+    margin-top: -14rem;
   }
 
   #side-bar img:hover {
@@ -668,17 +661,43 @@ margin-top: 7rem;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   #projects {
-    margin-top: 35rem;
+    margin-top: -6rem;
   }
 }
 
-/* @media screen and (max-width: 400px) {
-  #experience {
-    margin-bottom: 2rem;
-  }
+
+@media screen and (max-width: 414px) {
   #projects {
-    margin-top: 35rem;
+    margin-top: 22rem;
   }
-} */
+}
+
+@media screen and (max-width: 412px) {
+
+  #projects {
+    margin-top: 20rem;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  #projects {
+    margin-top: 25rem;
+  }
+}
+
+
+
+@media screen and (max-width: 375px)  {
+  #projects {
+    margin-top: 33rem;
+  }
+
+  .section__pic-container .about-pic {
+    margin-top: 1rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 10%;
+  }
+}
