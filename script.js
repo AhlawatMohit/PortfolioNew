@@ -6,6 +6,6 @@ function toggleMenu() {
 }
 
 let typed = new Typed('#element', {
-    strings: [ 'Frontend Developer', 'UI/UX Designer', 'MERN/MERN Stack'],
+    strings: [ 'Frontend Web Developer', 'UI/UX Designer', 'MERN/MEAN Stack'],
     typeSpeed: 80,
   });
