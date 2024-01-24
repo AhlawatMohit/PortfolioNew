@@ -210,6 +210,8 @@ section {
   width: 22rem;
   height: 22rem;
   border-radius: 50%;
+   padding: 0.3rem;
+  background: linear-gradient(66deg, rgb(44, 123, 209) 20%, rgb(65, 237, 52) 30%, rgb(227, 152, 39) 100%);
 }
 
 .section__text {
